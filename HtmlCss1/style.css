@@ -1,15 +1,23 @@
-body{   
+body {
     background-color: azure;
 }
 
-h1{
+div{
     text-align: center;
 }
 
-p{
+h1 {
     text-align: center;
 }
 
-em strong{
-    color:teal
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 30px;
+}
+
+em strong {
+    color: teal
 }

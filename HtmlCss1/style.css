@@ -1,8 +1,8 @@
-body {
+.principio{    
     background-color: azure;
 }
 
-div{
+#img{
     text-align: center;
 }
 
@@ -20,4 +20,16 @@ p {
 
 em strong {
     color: teal
+}
+
+.lista{
+font-style: italic;
+}
+
+.beneficio{
+    background: white;
+}
+
+h2 {
+    text-align: center;
 }

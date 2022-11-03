@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-h1 {
+.title-center {
     text-align: center;
 }
 
@@ -30,10 +30,6 @@ font-style: italic;
 .beneficio{
     background: white;
     padding: 20px;
-}
-
-h2 {
-    text-align: center;
 }
 
 ul{

@@ -1,5 +1,6 @@
 .principio{    
-    background-color: azure;
+    background-color:brown;
+    padding: 30px;
 }
 
 #img{
@@ -19,7 +20,7 @@ p {
 }
 
 em strong {
-    color: teal
+    color:yellowgreen
 }
 
 .lista{
@@ -28,8 +29,20 @@ font-style: italic;
 
 .beneficio{
     background: white;
+    padding: 20px;
 }
 
 h2 {
     text-align: center;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin: 10%;
+}
+
+.imgbenifecio{
+    width: 50%;
 }

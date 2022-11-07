@@ -1,0 +1,44 @@
+.principio{    
+    background-color:brown;
+    padding: 30px;
+}
+
+#img{
+    text-align: center;
+}
+
+.title-center {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 30px;
+}
+
+em strong {
+    color:yellowgreen
+}
+
+.lista{
+font-style: italic;
+}
+
+.beneficio{
+    background: white;
+    padding: 20px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin: 10%;
+}
+
+.imgbenifecio{
+    width: 50%;
+}

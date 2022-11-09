@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="productHeader">
-            <h1><img src="..\image\logo.png" alt=""></h1>
+            <h1><img src="..\image\logo.png" alt="Logo da Barbearia Alura"></h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -25,19 +25,19 @@
     <main>
         <form action="">
             <label for="nome">Primeiro Nome</label>
-            <input type="text" id="nome" class="inputPadrao">
+            <input type="text" id="nome" class="inputPadrao" required>
 
             <label for="email">Email</label>
-            <input type="email" name="" id="email" class="inputPadrao">
+            <input type="email" name="" id="email" class="inputPadrao" required placeholder="seuEmail@.com">
 
             <label for="telefone">Telefone</label>
-            <input type="number" id="telefone" class="inputPadrao">
+            <input type="tel" id="telefone" class="inputPadrao" required placeholder="(XX) XXXXX-XXXX">
 
             <label for="mensagem">Mensagem</label>
             <textarea name="" id="mensagem" cols="72" rows="10" class="inputPadrao"></textarea>
 
-            <div>
-                <p>Contato de preferencia</p>
+            <fieldset>
+                <legend>Contato de preferencia</legend>
                 <label for="radioEmail">
                     <input type="radio" name="contato" value="email" id="radioEmail">
                     Email</label>
@@ -47,24 +47,25 @@
                     Telefone</label>
 
                 <label for="radioWhatsApp">
-                    <input type="radio" name="contato" value="whatsApp" id="radioWhatsApp">
+                    <input type="radio" name="contato" value="whatsApp" id="radioWhatsApp" checked>
                     WhatsApp</label>
+            </fieldset>
 
-            </div>
+            <fieldset>
+                <legend>Qual o horario de atendimento</legend>
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </fieldset>
 
-            <p>Qual o horario de atendimento</p>
-            <select name="" id="">
-                <option value="">Manhã</option>
-                <option value="">Tarde</option>
-                <option value="">Noite</option>
-            </select>
-
-            <label class="checkbox"><input type="checkbox"> Receber novidades por email</input></label>
+            <label class="checkbox"><input type="checkbox" checked> Receber novidades por email</input></label>
             <input type="submit" value="Enviar">
         </form>
     </main>
     <footer>
-        <img src="..\Image\logo-branco.png">
+        <img src="..\Image\logo-branco.png" alt="Logo da Barbearia Alura">
         <p class="copyright">© Copyright Barbearia Alura - 2022</p>
     </footer>
 </body>
